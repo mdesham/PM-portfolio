@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "avatar": "images/profile-1.0.png",
+    "name": {
+      "en": "Ifti Siddik Isham",
+      "bn": "ইফতি সিদ্দিক ইশাম"
+    },
+    "title": {
+      "en": "Portfolio",
+      "bn": "পোর্টফোলিও"
+    },
+    "bio": {
+      "en": "I'm Ifti Siddik Isham",
+      "bn": "আমি ইফতি সিদ্দিক ইশাম"
+    }
+  }
+}
