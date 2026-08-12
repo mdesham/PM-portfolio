@@ -9,7 +9,7 @@ collections:
   - name: "portfolio_data"
     label: "Website Content"
     files:
-      - file: "data.json"
+      - file: "Coding/data.json"
         label: "Manage Portfolio Info & Media"
         name: "data"
         fields:
