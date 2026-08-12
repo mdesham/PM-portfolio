@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifti Siddik - Cinematic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Netlify Identity Widget for Admin Login -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+
+    <!-- হেডার ও নেভিগেশন -->
+    <header class="navbar">
+        <div class="logo">IFTI<span>.STUDIO</span></div>
+        <div class="nav-right">
+            <button id="lang-btn" class="glow-btn-sm" onclick="toggleLanguage()">BA</button>
+            <a href="admin/" class="admin-link-btn">Admin Login</a>
+        </div>
+    </header>
+
+    <!-- প্রিমিয়াম হিরো সেকশন -->
+    <section class="hero-section">
+        <div class="hero-card glass-panel">
+            <div class="avatar-wrapper">
+                <img id="user-avatar" src="https://via.placeholder.com/180" alt="Profile">
+                <div class="avatar-glow"></div>
+            </div>
+            <h1 id="user-name" class="gradient-text">Loading...</h1>
+            <h3 id="user-title">...</h3>
+            <p id="user-bio">...</p>
+            <div id="social-links" class="social-chips"></div>
+        </div>
+    </section>
+
+    <!-- ফিল্টারিং ও পোর্টফোলিও গ্রিড -->
+    <main class="main-content">
+        <div class="filter-bar" id="filter-buttons"></div>
+        <div id="dynamic-sections" class="portfolio-container"></div>
+
+        <!-- প্রিমিয়াম কন্টাক্ট সেকশন -->
+        <section class="contact-card glass-panel">
+            <h2 id="contact-title" class="gradient-text">Let's Create Together</h2>
+            <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+                <div class="input-grid">
+                    <input type="text" name="name" required placeholder="Your Name">
+                    <input type="email" name="email" required placeholder="Your Email">
+                </div>
+                <textarea name="message" rows="5" required placeholder="Project Details or Message..."></textarea>
+                <button type="submit" class="glow-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ifti Siddik. Crafted with Cinematic Precision.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

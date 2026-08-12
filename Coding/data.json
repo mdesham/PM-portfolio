@@ -1,0 +1,73 @@
+{
+  "profile": {
+    "name": {
+      "en": "Ifti Siddik",
+      "bn": "ইফতি সিদ্দিক"
+    },
+    "title": {
+      "en": "Video Editor & Graphics Designer",
+      "bn": "ভিডিও এডিটর ও গ্রাফিক্স ডিজাইনার"
+    },
+    "bio": {
+      "en": "I specialize in professional video editing, 3D visualization, and graphic design. Explore my work below.",
+      "bn": "আমি প্রফেশনাল লেভেলের ভিডিও এডিটিং, ৩ডি ভিজ্যুয়ালাইজেশন এবং গ্রাফিক্স ডিজাইন নিয়ে কাজ করি। আমার কাজগুলো নিচে তুলে ধরা হলো।"
+    },
+    "avatar": "https://via.placeholder.com/150"
+  },
+  "socials": [
+    { "name": "Facebook", "url": "https://facebook.com" },
+    { "name": "YouTube", "url": "https://youtube.com" },
+    { "name": "LinkedIn", "url": "https://linkedin.com" }
+  ],
+  "sections": [
+    {
+      "id": "video-editing",
+      "title": {
+        "en": "Video Editing",
+        "bn": "ভিডিও এডিটিং"
+      },
+      "subsections": [
+        {
+          "title": {
+            "en": "Documentary Edits",
+            "bn": "ডকুমেন্টারি এডিট"
+          },
+          "items": [
+            {
+              "title": {
+                "en": "Historical Documentary",
+                "bn": "ইতিহাস নির্ভর ডকুমেন্টারি"
+              },
+              "thumbnail": "https://via.placeholder.com/400x225",
+              "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graphics-design",
+      "title": {
+        "en": "Graphics & 3D Design",
+        "bn": "গ্রাফিক্স ও ৩ডি ডিজাইন"
+      },
+      "subsections": [
+        {
+          "title": {
+            "en": "3D Architecture",
+            "bn": "৩ডি আর্কিটেকচার"
+          },
+          "items": [
+            {
+              "title": {
+                "en": "Modern House 3D Model",
+                "bn": "মডার্ন হাউস ৩ডি মডেল"
+              },
+              "image": "https://via.placeholder.com/400x225"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

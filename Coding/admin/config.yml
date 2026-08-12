@@ -1,0 +1,79 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "portfolio_data"
+    label: "Website Content"
+    files:
+      - file: "data.json"
+        label: "Manage Portfolio Info & Media"
+        name: "data"
+        fields:
+          - label: "Profile Settings"
+            name: "profile"
+            widget: "object"
+            fields:
+              - { label: "Profile Image", name: "avatar", widget: "image" }
+              - label: "Name"
+                name: "name"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Bangla", name: "bn", widget: "string" }
+              - label: "Professional Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Bangla", name: "bn", widget: "string" }
+              - label: "Bio / Description"
+                name: "bio"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Bangla", name: "bn", widget: "text" }
+
+          - label: "Social Links"
+            name: "socials"
+            widget: "list"
+            fields:
+              - { label: "Platform Name", name: "name", widget: "string" }
+              - { label: "Profile Link URL", name: "url", widget: "string" }
+
+          - label: "Portfolio Sections & Media"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: "Section ID (slug)", name: "id", widget: "string" }
+              - label: "Section Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Bangla", name: "bn", widget: "string" }
+              - label: "Subsections & Items"
+                name: "subsections"
+                widget: "list"
+                fields:
+                  - label: "Subsection Title"
+                    name: "title"
+                    widget: "object"
+                    fields:
+                      - { label: "English", name: "en", widget: "string" }
+                      - { label: "Bangla", name: "bn", widget: "string" }
+                  - label: "Projects / Media Items"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - label: "Project Title"
+                        name: "title"
+                        widget: "object"
+                        fields:
+                          - { label: "English", name: "en", widget: "string" }
+                          - { label: "Bangla", name: "bn", widget: "string" }
+                      - { label: "Image Upload", name: "image", widget: "image", required: false }
+                      - { label: "YouTube Embed URL (If Video)", name: "videoUrl", widget: "string", required: false }
